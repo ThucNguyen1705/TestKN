@@ -1,0 +1,211 @@
+--- Test Array Stack ---
+Pushing 25 random integers onto Array Stack:
+Elements in stack after pushing: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95, 29, 55, 80, 12, 45, 6]
+Popping elements from stack:
+Popped: 6
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95, 29, 55, 80, 12, 45]
+Popped: 45
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95, 29, 55, 80, 12]
+Popped: 12
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95, 29, 55, 80]
+Popped: 80
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95, 29, 55]
+Popped: 55
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95, 29]
+Popped: 29
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18, 95]
+Popped: 95
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70, 18]
+Popped: 18
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8, 70]
+Popped: 70
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62, 8]
+Popped: 8
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34, 62]
+Popped: 62
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1, 34]
+Popped: 34
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99, 1]
+Popped: 1
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50, 99]
+Popped: 99
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3, 50]
+Popped: 50
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75, 3]
+Popped: 3
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10, 75]
+Popped: 75
+Elements remaining: [42, 15, 88, 5, 91, 23, 67, 10]
+Popped: 10
+Elements remaining: [42, 15, 88, 5, 91, 23, 67]
+Popped: 67
+Elements remaining: [42, 15, 88, 5, 91, 23]
+Popped: 23
+Elements remaining: [42, 15, 88, 5, 91]
+Popped: 91
+Elements remaining: [42, 15, 88, 5]
+Popped: 5
+Elements remaining: [42, 15, 88]
+Popped: 88
+Elements remaining: [42, 15]
+Popped: 15
+Elements remaining: [42]
+Popped: 42
+Elements remaining: Stack is empty
+
+--- Test Linked List Stack ---
+Pushing 22 random integers onto Linked List Stack:
+Elements in stack after pushing: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9, 53, 26, 65, 11, 89, 40]
+Popping elements from stack:
+Popped: 40
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9, 53, 26, 65, 11, 89]
+Popped: 89
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9, 53, 26, 65, 11]
+Popped: 11
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9, 53, 26, 65]
+Popped: 65
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9, 53, 26]
+Popped: 26
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9, 53]
+Popped: 53
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73, 9]
+Popped: 9
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48, 73]
+Popped: 73
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2, 48]
+Popped: 48
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81, 2]
+Popped: 2
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36, 81]
+Popped: 81
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59, 36]
+Popped: 36
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14, 59]
+Popped: 59
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92, 14]
+Popped: 14
+Elements remaining: [7, 31, 85, 19, 60, 4, 77, 92]
+Popped: 92
+Elements remaining: [7, 31, 85, 19, 60, 4, 77]
+Popped: 77
+Elements remaining: [7, 31, 85, 19, 60, 4]
+Popped: 4
+Elements remaining: [7, 31, 85, 19, 60]
+Popped: 60
+Elements remaining: [7, 31, 85, 19]
+Popped: 19
+Elements remaining: [7, 31, 85]
+Popped: 85
+Elements remaining: [7, 31]
+Popped: 31
+Elements remaining: [7]
+Popped: 7
+Elements remaining: Stack is empty
+
+--- Test Array Queue ---
+Enqueuing 28 random integers onto Array Queue:
+Elements in queue after enqueuing: [58, 93, 16, 71, 24, 88, 5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeuing elements from queue:
+Dequeued: 58
+Elements remaining: [93, 16, 71, 24, 88, 5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 93
+Elements remaining: [16, 71, 24, 88, 5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 16
+Elements remaining: [71, 24, 88, 5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 71
+Elements remaining: [24, 88, 5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 24
+Elements remaining: [88, 5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 88
+Elements remaining: [5, 49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 5
+Elements remaining: [49, 13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 49
+Elements remaining: [13, 66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 13
+Elements remaining: [66, 30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 66
+Elements remaining: [30, 82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 30
+Elements remaining: [82, 4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 82
+Elements remaining: [4, 76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 4
+Elements remaining: [76, 20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 76
+Elements remaining: [20, 97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 20
+Elements remaining: [97, 1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 97
+Elements remaining: [1, 44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 1
+Elements remaining: [44, 69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 44
+Elements remaining: [69, 35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 69
+Elements remaining: [35, 87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 35
+Elements remaining: [87, 10, 52, 25, 79, 8, 41, 63]
+Dequeued: 87
+Elements remaining: [10, 52, 25, 79, 8, 41, 63]
+Dequeued: 10
+Elements remaining: [52, 25, 79, 8, 41, 63]
+Dequeued: 52
+Elements remaining: [25, 79, 8, 41, 63]
+Dequeued: 25
+Elements remaining: [79, 8, 41, 63]
+Dequeued: 79
+Elements remaining: [8, 41, 63]
+Dequeued: 8
+Elements remaining: [41, 63]
+Dequeued: 41
+Elements remaining: [63]
+Dequeued: 63
+Elements remaining: Queue is empty
+
+--- Test Linked List Queue ---
+Enqueuing 21 random integers onto Linked List Queue:
+Elements in queue after enqueuing: [17, 84, 28, 72, 3, 56, 90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeuing elements from queue:
+Dequeued: 17
+Elements remaining: [84, 28, 72, 3, 56, 90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 84
+Elements remaining: [28, 72, 3, 56, 90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 28
+Elements remaining: [72, 3, 56, 90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 72
+Elements remaining: [3, 56, 90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 3
+Elements remaining: [56, 90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 56
+Elements remaining: [90, 12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 90
+Elements remaining: [12, 47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 12
+Elements remaining: [47, 70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 47
+Elements remaining: [70, 22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 70
+Elements remaining: [22, 61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 22
+Elements remaining: [61, 94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 61
+Elements remaining: [94, 6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 94
+Elements remaining: [6, 39, 83, 15, 51, 78, 9, 46]
+Dequeued: 6
+Elements remaining: [39, 83, 15, 51, 78, 9, 46]
+Dequeued: 39
+Elements remaining: [83, 15, 51, 78, 9, 46]
+Dequeued: 83
+Elements remaining: [15, 51, 78, 9, 46]
+Dequeued: 15
+Elements remaining: [51, 78, 9, 46]
+Dequeued: 51
+Elements remaining: [78, 9, 46]
+Dequeued: 78
+Elements remaining: [9, 46]
+Dequeued: 9
+Elements remaining: [46]
+Dequeued: 46
+Elements remaining: Queue is empty
